@@ -27,7 +27,6 @@ cat > "$OUT" <<RUBY
 class Ytui < Formula
   desc "Audio-first YouTube client for the terminal, light on RAM"
   homepage "https://github.com/OPS-NC/YTui"
-  version "$VERSION"
 
   on_macos do
     on_arm do
@@ -69,4 +68,5 @@ class Ytui < Formula
   end
 end
 RUBY
+# No `version` line: brew reads it from the release URL (…/download/v0.1/…).
 echo "$OUT → ytui $VERSION"

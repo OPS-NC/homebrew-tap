@@ -2,7 +2,6 @@
 class Ytui < Formula
   desc "Audio-first YouTube client for the terminal, light on RAM"
   homepage "https://github.com/OPS-NC/YTui"
-  version "0.1"
 
   on_macos do
     on_arm do
