@@ -5,23 +5,23 @@ class Ytui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/OPS-NC/YTui/releases/download/v0.1/ytui-macos-arm64"
-      sha256 "3555140645dee897adf8665b65c2183a80bf0e1dd6e8b738086761681c867766"
+      url "https://github.com/OPS-NC/YTui/releases/download/v0.2/ytui-macos-arm64"
+      sha256 "ba035ff5543a3402d4d9a20dae7ba508f2493e39e816ee0ce5f06f3de9f39f88"
     end
     on_intel do
-      url "https://github.com/OPS-NC/YTui/releases/download/v0.1/ytui-macos-x86_64"
-      sha256 "94e2a8fb2b9d7eb31a85792a0906f4336dbe6570171250e043c60b6d5d93cd21"
+      url "https://github.com/OPS-NC/YTui/releases/download/v0.2/ytui-macos-x86_64"
+      sha256 "0f9b9a604ff230e2bbd83d45093271fb47e88d0f1618ac7640ba75f015a77d09"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/OPS-NC/YTui/releases/download/v0.1/ytui-linux-aarch64"
-      sha256 "5a898b04e0f307ac0d3af26bbf9ca61fb4cb6c37b006fd593e5ebecf3177a448"
+      url "https://github.com/OPS-NC/YTui/releases/download/v0.2/ytui-linux-aarch64"
+      sha256 "74128cd81768e30d7eb2a9308094a5e7a236b0fba04be8eb13fff2a439f73c4a"
     end
     on_intel do
-      url "https://github.com/OPS-NC/YTui/releases/download/v0.1/ytui-linux-x86_64"
-      sha256 "a24c33a97175d6df191f3643cfbdeecdfb500340d93fdd0a4ca14eebfb19f123"
+      url "https://github.com/OPS-NC/YTui/releases/download/v0.2/ytui-linux-x86_64"
+      sha256 "c1bf3787e951a0cf4516aa7eff259efd0de40bfa6b8da17fae701396099046e5"
     end
   end
 
